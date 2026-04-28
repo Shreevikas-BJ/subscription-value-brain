@@ -95,7 +95,7 @@ This project answers four business questions:
     Downloadable Target List
 
 ## Modeling Approach
-1. Churn Prediction
+**1. Churn Prediction**
 
 The churn model predicts the probability that a customer will cancel or stop using the service.
 
@@ -114,7 +114,7 @@ Output:
 
 p_churn = probability that a customer is likely to churn
 
-2. Customer Lifetime Value Estimation
+**2. Customer Lifetime Value Estimation**
 
 The CLV model estimates the expected future value of each customer.
 
@@ -138,7 +138,7 @@ Output:
 
 clv = expected future customer value
 
-3. Uplift Modeling
+**3. Uplift Modeling**
 
 The uplift model estimates whether a retention offer is likely to make a positive difference.
 
@@ -159,7 +159,7 @@ Output:
 
 uplift = estimated incremental impact of marketing treatment
 
-4. Customer Segmentation
+**4. Customer Segmentation**
 
 Customers are grouped into business-friendly uplift segments:
 
@@ -171,7 +171,7 @@ Do-Not-Disturb	Customers who may react negatively to unnecessary targeting
 
 This helps marketing teams avoid wasting budget and focus on customers where intervention can create real business value.
 
-5. Unified Targeting Score
+**5. Unified Targeting Score**
 
 The final targeting score combines churn risk, customer value, and positive uplift.
 
@@ -227,10 +227,11 @@ subscription-value-brain/
 └── README.md
 
 ## Getting Started
-1. Clone the Repository
+**1. Clone the Repository**
    git clone https://github.com/Shreevikas-BJ/subscription-value-brain.git
 cd subscription-value-brain
-2. Create a Virtual Environment
+
+**2. Create a Virtual Environment**
     python -m venv venv
 
 Activate the environment:
@@ -242,7 +243,8 @@ venv\Scripts\activate
 macOS / Linux
 
 source venv/bin/activate
-3. Install Dependencies
+
+**3. Install Dependencies**
     pip install -r requirements.txt
     
 ## Run the Project
@@ -320,6 +322,7 @@ Campaign simulation
 Model evaluation beyond accuracy
 Translating ML outputs into business decisions
 Building stakeholder-friendly dashboards
+
 ## Future Improvements
 Add real-time scoring API using FastAPI
 Add automated retraining pipeline
