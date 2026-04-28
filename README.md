@@ -113,6 +113,7 @@ Precision@K
 Output:
 
 p_churn = probability that a customer is likely to churn
+
 2. Customer Lifetime Value Estimation
 
 The CLV model estimates the expected future value of each customer.
@@ -136,6 +137,7 @@ Log transformation on monetary values to reduce the effect of skewed revenue dis
 Output:
 
 clv = expected future customer value
+
 3. Uplift Modeling
 
 The uplift model estimates whether a retention offer is likely to make a positive difference.
@@ -156,6 +158,7 @@ Random Forest Classifier
 Output:
 
 uplift = estimated incremental impact of marketing treatment
+
 4. Customer Segmentation
 
 Customers are grouped into business-friendly uplift segments:
@@ -222,12 +225,13 @@ subscription-value-brain/
 │
 ├── requirements.txt
 └── README.md
+
 ## Getting Started
 1. Clone the Repository
-git clone https://github.com/Shreevikas-BJ/subscription-value-brain.git
+   git clone https://github.com/Shreevikas-BJ/subscription-value-brain.git
 cd subscription-value-brain
 2. Create a Virtual Environment
-python -m venv venv
+    python -m venv venv
 
 Activate the environment:
 
@@ -239,7 +243,8 @@ macOS / Linux
 
 source venv/bin/activate
 3. Install Dependencies
-pip install -r requirements.txt
+    pip install -r requirements.txt
+    
 ## Run the Project
 
 If the project includes a Streamlit app file, run:
